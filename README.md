@@ -1,2 +1,5 @@
-# aula_tecnicas_programacao
-Repositório de aula
+# Tecnicas-Programacao
+Material das aulas Técnicas de programação
+# Nome: Caique aparecido dos santos siqueira
+# RGM: 25850326
+# Semestre: 3k
