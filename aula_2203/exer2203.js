@@ -23,35 +23,35 @@ Faça um programa que calcule a tabuada de um número */
 console.log("Exercicío 3");
 var x = 10;
 var tab;
-for(var i=0; i<=10;i++){
+for(var i=1; i<=10;i++){
     tab = x * i;
     console.log(x + ' x ' + i + ' = ' + tab);
     
 }
 /*Exercicío 4
 */
-console.log("Exercicío 3");
-var tab;
-for(var i=0; i<=10;i++){
-    console.log(1 + ' x ' + i + ' = ' + 1 * i);
+console.log("Exercicío 4");
+for(var i=1; i<=10;i++){
+    console.log(i + ' x ' + 1 + ' = ' + 1 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 2 * i);
+    console.log(i + ' x ' + 2 + ' = ' + 2 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 3 * i);
+    console.log(i + ' x ' + 3 + ' = ' + 3 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 4 * i);
+    console.log(i + ' x ' + 4 + ' = ' + 4 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 5 * i);
+    console.log(i + ' x ' + 5 + ' = ' + 5 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 6 * i);
+    console.log(i + ' x ' + 6 + ' = ' + 6 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 7 * i);
+    console.log(i + ' x ' + 7 + ' = ' + 7 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 8 * i);
+    console.log(i + ' x ' + 8 + ' = ' + 8 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 9 * i);
+    console.log(i + ' x ' + 9 + ' = ' + 9 * i);
     console.log("");
-    console.log(1 + ' x ' + i + ' = ' + 10 * i);
+    console.log(i + ' x ' + 10 + ' = ' + 10 * i);
+    console.log("-------------------------------------------------------------")
 } 
 
 /* Faça um programa que calcule o preçode um produto, calcule e mostre o novo preço sabendo-se que o preço atual é R$1500 e este sofreu um desconto de 10%.

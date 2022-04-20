@@ -1,7 +1,3 @@
-
-
-
-
 function CalcularHoraTrab (salario){
     let valorHorasTrab = salario/8;
     return valorHorasTrab;
@@ -28,12 +24,12 @@ function SalarioReceber(salBruto,valorHorasExtrasRec){
 }
 function inicializar(){
     let qtdHorasTrab = 200;
-    let valorSalarioMin = 1212;
+    let valorSalarioMin = 1000;
     let qtdHorasExtras = 30;
     console.log(CalcularHoraTrab(valorSalarioMin));
     console.log(CalcularHorasExtras(valorSalarioMin));
     console.log(CalcularSalBruto(qtdHorasTrab,CalcularHoraTrab(valorSalarioMin)));
     console.log(HoraExtraReceber(qtdHorasExtras,CalcularHorasExtras(valorSalarioMin)));
-    console.log(SalarioReceber(CalcularSalBruto(qtdHorasTrab,CalcularHoraTrab(valorSalarioMinHoraExtraReceber(qtdHorasExtras,CalcularHoraExtra(valorSalarioMin))))));
+    console.log(SalarioReceber(CalcularSalBruto(qtdHorasTrab,CalcularHoraTrab(valorSalarioMin,HoraExtraReceber(qtdHorasExtras,CalcularHorasExtras(valorSalarioMin))))));
 }
 inicializar();
